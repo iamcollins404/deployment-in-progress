@@ -5,7 +5,7 @@ function App() {
   const [percentage, setPercentage] = useState(0);
 
   useEffect(() => {
-    const targetDate = new Date('2024-11-22T12:00:00+02:00'); // Zimbabwe is UTC+2
+    const targetDate = new Date('2024-12-20T12:00:00+02:00'); // Zimbabwe is UTC+2
     
     const calculateProgress = () => {
       const now = new Date();
